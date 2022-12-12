@@ -15,18 +15,13 @@ public class GamePanel extends JPanel implements Runnable{
     public final int tileSize = originalTileSize*scale; //48x48 tile
     public final int maxScreenCol = 16;
     public final int maxScreenRow = 12;
-    public final int screenWidth=tileSize*maxScreenCol; // 768 pixels
-    public final int screenHeight=tileSize*maxScreenRow;  // 576 pixels
+    final int screenWidth=tileSize*maxScreenCol; // 768 pixels
+    final int screenHeight=tileSize*maxScreenRow;  // 576 pixels
     KeyHandler keyH = new KeyHandler();
     Thread gameThread;
-    public Player player = new Player(this,keyH);
+    Player player = new Player(this,keyH);
     int FPS = 60;
     TileManager tileM= new TileManager(this);
-    // WORLD SETTINGS
-    public final int maxWorldCol=50;
-    public final int maxWorldRow=50;
-    public final int worldWidth = tileSize*maxWorldCol;
-    public final int worldHeight = tileSize*maxWorldRow;
 
 
 
@@ -83,8 +78,12 @@ public class GamePanel extends JPanel implements Runnable{
         while(gameThread!=null){
 
             currentTime=System.nanoTime();
+            System.out.println("current time: "+currentTime);
+            System.out.println("last time: "+lastTime);
             delta+=(currentTime-lastTime)/drawInterval;
+            System.out.println("delta: "+delta);
             timer+=(currentTime-lastTime);
+            System.out.println("timer: "+timer );
             lastTime=currentTime;
 
 

@@ -1,32 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="moving block by using wsad">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/maps/map01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/maps/world01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_down_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_down_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_left_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_left_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_right_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_right_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_up_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_up_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/grass.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/sand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/tree.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/wall.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/water.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
+    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="smthn wrong">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/maps/world01.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/tiles/earth.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/tiles/sand.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resource/tiles/tree.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +67,7 @@
       <updated>1670603552853</updated>
       <workItem from="1670603554167" duration="6273000" />
       <workItem from="1670616594452" duration="37000" />
-      <workItem from="1670841289427" duration="18050000" />
+      <workItem from="1670841289427" duration="19344000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -99,11 +83,29 @@
       <option name="project" value="LOCAL" />
       <updated>1670609954036</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="smthn wrong">
+      <created>1670875810568</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670875810568</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -118,6 +120,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moving block by using wsad" />
-    <option name="LAST_COMMIT_MESSAGE" value="moving block by using wsad" />
+    <MESSAGE value="smthn wrong" />
+    <option name="LAST_COMMIT_MESSAGE" value="smthn wrong" />
   </component>
 </project>

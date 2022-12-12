@@ -12,14 +12,14 @@ import java.io.InputStreamReader;
 public class TileManager {
     GamePanel gp;
     Tile[] tile;
-    int[][] mapTileNum;
+    int mapTileNum[][];
 
     public TileManager(GamePanel gp){
         this.gp = gp;
         tile = new Tile[10];
-        mapTileNum=new int[gp.maxWorldCol][gp.maxWorldRow];
+        mapTileNum=new int[gp.maxScreenCol][gp.maxScreenRow];
         getTileImage();
-        loadMap("/maps/world01.txt");
+        loadMap("/resource/maps/map01.txt");
     }
     public void getTileImage(){
 
@@ -30,12 +30,6 @@ public class TileManager {
             tile[1].image= ImageIO.read(getClass().getResourceAsStream("/resource/tiles/wall.png"));
             tile[2]=new Tile();
             tile[2].image= ImageIO.read(getClass().getResourceAsStream("/resource/tiles/water.png"));
-            tile[3]=new Tile();
-            tile[3].image= ImageIO.read(getClass().getResourceAsStream("/resource/tiles/earth.png"));
-            tile[4]=new Tile();
-            tile[4].image= ImageIO.read(getClass().getResourceAsStream("/resource/tiles/tree.png"));
-            tile[5]=new Tile();
-            tile[5].image= ImageIO.read(getClass().getResourceAsStream("/resource/tiles/sand.png"));
 
 
         }catch (IOException e){
@@ -50,18 +44,17 @@ public class TileManager {
 
             int col = 0;
             int row = 0;
-
-            while(col<gp.maxWorldCol&&row<gp.maxWorldRow)
+            while(col<gp.maxScreenCol&&row<gp.maxScreenRow)
             {
                 String line = br.readLine();
-                while (col<gp.maxWorldCol){
+                while (col<gp.maxScreenCol){
                     String numbers[] = line.split(" ");
 
                     int num= Integer.parseInt(numbers[col]);
                     mapTileNum[col][row]=num;
                     col++;
                 }
-                if (col==gp.maxWorldCol){
+                if (col==gp.maxScreenCol){
                     col=0;
                     row++;
                 }
@@ -75,24 +68,25 @@ public class TileManager {
         // 0 - grass, 1 - wall, 2 - water
         // board 12x16
 
-        int worldCol = 0;
-        int worldRow = 0;
+        int col = 0;
+        int row = 0;
+        int x = 0;
+        int y = 0;
 
-        while (worldCol<gp.maxWorldCol&&worldRow< gp.maxWorldRow){
-            int tileNum=mapTileNum[worldCol][worldRow];
+        while (col<gp.maxScreenCol&&row< gp.maxScreenRow){
+            int tileNum=mapTileNum[col][row];
+            g2.drawImage(tile[tileNum].image, x, y, gp.tileSize, gp.tileSize, null);
+            col++;x+=gp.tileSize;
 
-            int worldX=worldCol+gp.tileSize;
-            int worldY=worldRow*gp.tileSize;
-            int screenX=worldX-gp.player.worldX+gp.player.screenX;
-            int screenY=worldY-gp.player.worldY+gp.player.screenY;
+            if (col == gp.maxScreenCol) {
 
-            g2.drawImage(tile[tileNum].image, screenX, screenY , gp.tileSize, gp.tileSize, null);
-            worldCol++;
-
-            if (worldCol == gp.maxWorldCol) {
-                worldCol=0;
-                worldRow++;
+                col=0;
+                x=0;
+                row++;
+                y+=gp.tileSize;
             }
         }
+
+
     }
 }
