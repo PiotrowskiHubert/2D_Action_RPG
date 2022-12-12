@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="dziala, ale nie ma word gen">
-      <change afterPath="$PROJECT_DIR$/src/resource/maps/world01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/earth.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/sand.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resource/tiles/tree.png" afterDir="false" />
+    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="dziala, ale nie ma word gen 2">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +64,7 @@
       <updated>1670603552853</updated>
       <workItem from="1670603554167" duration="6273000" />
       <workItem from="1670616594452" duration="37000" />
-      <workItem from="1670841289427" duration="19748000" />
+      <workItem from="1670841289427" duration="22608000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -94,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670876845698</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="dziala, ale nie ma word gen 2">
+      <created>1670877288112</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1670877288112</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,6 +133,7 @@
     <MESSAGE value="moving block by using wsad" />
     <MESSAGE value="smthn wrong" />
     <MESSAGE value="dziala, ale nie ma word gen" />
-    <option name="LAST_COMMIT_MESSAGE" value="dziala, ale nie ma word gen" />
+    <MESSAGE value="dziala, ale nie ma word gen 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="dziala, ale nie ma word gen 2" />
   </component>
 </project>
