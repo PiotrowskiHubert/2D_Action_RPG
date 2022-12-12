@@ -2,9 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="moving block by using wsad">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/maps/map01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/maps/world01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_down_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_down_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_left_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_left_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_right_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_right_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_up_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/player/boy_up_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/grass.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/tree.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/wall.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/water.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/Tile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/KeyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/KeyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +56,23 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/intelijiProjects/game2d/src/resource/maps"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\intelijiProjects\game2d\src\resource\maps" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\intelijiProjects\game2d\src\resource\tiles" />
+      <recent name="C:\intelijiProjects\game2d\src\maps" />
+      <recent name="C:\intelijiProjects\game2d\src\resource\player" />
+      <recent name="C:\intelijiProjects\game2d\src\player\res\player" />
+      <recent name="C:\intelijiProjects\game2d\src\player\res" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -45,7 +81,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1670603552853</updated>
-      <workItem from="1670603554167" duration="6202000" />
+      <workItem from="1670603554167" duration="6273000" />
+      <workItem from="1670616594452" duration="37000" />
+      <workItem from="1670841289427" duration="18050000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -54,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670607865595</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="moving block by using wsad">
+      <created>1670609954036</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670609954036</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
