@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="smthn wrong">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="dziala, ale nie ma word gen">
+      <change afterPath="$PROJECT_DIR$/src/resource/maps/world01.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/earth.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/sand.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resource/tiles/tree.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/maps/world01.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/tiles/earth.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/tiles/sand.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resource/tiles/tree.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +47,11 @@
       <recent name="C:\intelijiProjects\game2d\src\resource\maps" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\intelijiProjects\game2d\src\resource\maps" />
       <recent name="C:\intelijiProjects\game2d\src\resource\tiles" />
       <recent name="C:\intelijiProjects\game2d\src\maps" />
       <recent name="C:\intelijiProjects\game2d\src\resource\player" />
       <recent name="C:\intelijiProjects\game2d\src\player\res\player" />
-      <recent name="C:\intelijiProjects\game2d\src\player\res" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -67,7 +64,7 @@
       <updated>1670603552853</updated>
       <workItem from="1670603554167" duration="6273000" />
       <workItem from="1670616594452" duration="37000" />
-      <workItem from="1670841289427" duration="19344000" />
+      <workItem from="1670841289427" duration="19748000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -90,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670875810568</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="dziala, ale nie ma word gen">
+      <created>1670876845698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1670876845698</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +125,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="moving block by using wsad" />
     <MESSAGE value="smthn wrong" />
-    <option name="LAST_COMMIT_MESSAGE" value="smthn wrong" />
+    <MESSAGE value="dziala, ale nie ma word gen" />
+    <option name="LAST_COMMIT_MESSAGE" value="dziala, ale nie ma word gen" />
   </component>
 </project>
