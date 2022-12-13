@@ -6,90 +6,115 @@ import main.KeyHandler;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
+import java.awt.geom.Ellipse2D;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 
-public class Player extends Entity{
+public class Player extends Entity {
 
     GamePanel gp;
     KeyHandler keyH;
     public final int screenX;
     public final int screenY;
-        public Player(GamePanel gp, KeyHandler keyH){
 
-            this.gp = gp;
-            this.keyH= keyH;
+    public Player(GamePanel gp, KeyHandler keyH) {
 
-            screenX=gp.screenWidth/2-(gp.tileSize/2);
-            screenY=gp.screenHeight/2-(gp.tileSize/2);
+        this.gp = gp;
+        this.keyH = keyH;
 
-            SetDefaultValues();
-            getPlayerImage();
+        screenX = gp.screenWidth / 2 - (gp.tileSize / 2);
+        screenY = gp.screenHeight / 2 - (gp.tileSize / 2);
+
+        solidArea = new Rectangle(8, 18, 32, 32);
+
+        SetDefaultValues();
+        getPlayerImage();
+    }
+
+    public void SetDefaultValues() {
+        worldX = gp.tileSize * 23;
+        worldY = gp.tileSize * 21;
+        speed = 4;
+        direction = "down";
+    }
+
+    public void getPlayerImage() {
+
+        try {
+            up1 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_up_1.png"));
+            up2 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_up_2.png"));
+            down1 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_down_1.png"));
+            down2 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_down_2.png"));
+            right1 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_right_1.png"));
+            right2 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_right_2.png"));
+            left1 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_left_1.png"));
+            left2 = ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_left_2.png"));
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
-        public void SetDefaultValues(){
-            worldX=gp.tileSize*23;
-            worldY=gp.tileSize*21;
-            speed=4;
-            direction="down";
-        }
-        public void getPlayerImage(){
+    }
 
-            try {
-                up1= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_up_1.png"));
-                up2= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_up_2.png"));
-                down1= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_down_1.png"));
-                down2= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_down_2.png"));
-                right1= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_right_1.png"));
-                right2= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_right_2.png"));
-                left1= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_left_1.png"));
-                left2= ImageIO.read(getClass().getResourceAsStream("/resource/player/boy_left_2.png"));
+    public void update() {
 
-            }catch (IOException e){
-                e.printStackTrace();
+        if (keyH.upPressed || keyH.downPressed
+                || keyH.leftPressed || keyH.rightPressed) {
+
+            if (keyH.upPressed) {
+                direction = "up";
+                //playerY=playerY-playerSpeed;
+            } else if (keyH.downPressed) {
+                direction = "down";
+            } else if (keyH.leftPressed) {
+                direction = "left";
+            } else if (keyH.rightPressed) {
+                direction = "right";
+            }
+
+            //check tile colision
+            collisionOn=false;
+            gp.cChecker.checkTile(this);
+
+            //
+            if(collisionOn==false){
+
+                switch (direction){
+                    case "up":
+                        worldY -= speed;
+                        break;
+                    case "down":
+                        worldY += speed;
+                        break;
+                    case "left":
+                        worldX -= speed;
+                        break;
+                    case "right":
+                        worldX += speed;
+                        break;
+                }
+            }
+
+            spriteCounter++;
+            if (spriteCounter > 15) {
+                if (spriteNum == 1) {
+                    spriteNum = 2;
+                } else if (spriteNum == 2) {
+                    spriteNum = 1;
+                }
+                spriteCounter = 0;
             }
         }
-        public void update(){
+        spriteCounter++;
 
-            if (keyH.upPressed || keyH.downPressed
-                    || keyH.leftPressed || keyH.rightPressed) {
-
-                if (keyH.upPressed) {
-                    direction = "up";
-                    worldY -= speed;
-                    //playerY=playerY-playerSpeed;
-                } else if (keyH.downPressed) {
-                    direction = "down";
-                    worldY += speed;
-                } else if (keyH.leftPressed) {
-                    direction = "left";
-                    worldX -= speed;
-                } else if (keyH.rightPressed) {
-                    direction = "right";
-                    worldX += speed;
-                }
-                spriteCounter++;
-
-                if (spriteCounter > 15) {
-                    if (spriteNum == 1) {
-                        spriteNum = 2;
-                    } else if (spriteNum == 2) {
-                        spriteNum = 1;
-                    }
-                    spriteCounter = 0;
-                }
-            }else {
-                spriteCounter++;
-
-                if (spriteCounter > 45) {
-                    if (spriteNum == 1) {
-                        spriteNum = 2;
-                    } else if (spriteNum == 2) {
-                        spriteNum = 1;
-                    }
-                    spriteCounter = 0;
-                }
+        if (spriteCounter > 45) {
+            if (spriteNum == 1) {
+                spriteNum = 2;
+            } else if (spriteNum == 2) {
+                spriteNum = 1;
             }
+            spriteCounter = 0;
         }
+    }
         public void draw(Graphics2D g2){
 //            g2.setColor(Color.white);
 //            g2.fillRect(x, y,gp.tileSize,gp.tileSize);

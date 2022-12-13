@@ -2,12 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="dziala, ale nie ma word gen 2">
+      <change afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileColors">
+    <fileColor scope="Project Files" color="Green" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -34,7 +42,10 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/intelijiProjects/game2d/src/resource/maps"
+    "last_opened_file_path": "C:/intelijiProjects/game2d/src/resource/maps",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -60,6 +71,9 @@
       <workItem from="1670603554167" duration="6273000" />
       <workItem from="1670616594452" duration="37000" />
       <workItem from="1670841289427" duration="22661000" />
+      <workItem from="1670948483286" duration="1389000" />
+      <workItem from="1670950352012" duration="131000" />
+      <workItem from="1670950549432" duration="7299000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -103,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670882048039</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="dziala, ale nie ma word gen 2">
+      <created>1670949543300</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670949543300</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,5 +158,9 @@
     <MESSAGE value="dziala, ale nie ma word gen" />
     <MESSAGE value="dziala, ale nie ma word gen 2" />
     <option name="LAST_COMMIT_MESSAGE" value="dziala, ale nie ma word gen 2" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
