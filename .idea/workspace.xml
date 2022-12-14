@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="dziala, ale nie ma word gen 2">
-      <change afterPath="$PROJECT_DIR$/src/main/CollisionChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Entity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Entity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/entity/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/entity/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/GamePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tile/TileManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tile/TileManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="map, collision, player screen mid centred, screen position depending on map position," />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +66,7 @@
       <workItem from="1670841289427" duration="22661000" />
       <workItem from="1670948483286" duration="1389000" />
       <workItem from="1670950352012" duration="131000" />
-      <workItem from="1670950549432" duration="7299000" />
+      <workItem from="1670950549432" duration="7786000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -124,7 +117,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670949543300</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="map, collision, player screen mid centred, screen position depending on map position,">
+      <created>1670967942369</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1670967942369</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,7 +157,8 @@
     <MESSAGE value="smthn wrong" />
     <MESSAGE value="dziala, ale nie ma word gen" />
     <MESSAGE value="dziala, ale nie ma word gen 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="dziala, ale nie ma word gen 2" />
+    <MESSAGE value="map, collision, player screen mid centred, screen position depending on map position," />
+    <option name="LAST_COMMIT_MESSAGE" value="map, collision, player screen mid centred, screen position depending on map position," />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
