@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="map, collision, player screen mid centred, screen position depending on map position," />
+    <list default="true" id="e2bbf4ff-9768-48f6-aca4-a5cff0b419ca" name="Changes" comment="map, collision, player screen mid centred, screen position depending on map position,">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +21,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -35,7 +38,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/intelijiProjects/game2d/src/resource/maps",
+    "last_opened_file_path": "C:/intelijiProjects/game2d",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
@@ -66,7 +69,9 @@
       <workItem from="1670841289427" duration="22661000" />
       <workItem from="1670948483286" duration="1389000" />
       <workItem from="1670950352012" duration="131000" />
-      <workItem from="1670950549432" duration="7786000" />
+      <workItem from="1670950549432" duration="8256000" />
+      <workItem from="1671099236589" duration="1634000" />
+      <workItem from="1671133343806" duration="2483000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -124,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670967942369</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="map, collision, player screen mid centred, screen position depending on map position,">
+      <created>1671054734867</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1671054734867</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,7 +158,34 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
           </value>
         </entry>
       </map>
