@@ -32,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/intelijiProjects/game2d",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.file-colors"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/intelijiProjects/game2d&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\intelijiProjects\game2d\src\resource\maps" />
@@ -71,7 +71,15 @@
       <workItem from="1670950352012" duration="131000" />
       <workItem from="1670950549432" duration="8256000" />
       <workItem from="1671099236589" duration="1634000" />
-      <workItem from="1671133343806" duration="2483000" />
+      <workItem from="1671133343806" duration="2524000" />
+      <workItem from="1671136070197" duration="3170000" />
+      <workItem from="1671737885758" duration="85000" />
+      <workItem from="1671737981237" duration="80000" />
+      <workItem from="1671738079086" duration="6000" />
+      <workItem from="1671739019711" duration="1741000" />
+      <workItem from="1672090657924" duration="1411000" />
+      <workItem from="1672094309076" duration="621000" />
+      <workItem from="1672216604164" duration="5202000" />
     </task>
     <task id="LOCAL-00001" summary="moving block by using wsad">
       <created>1670607865595</created>
@@ -136,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671054734867</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="map, collision, player screen mid centred, screen position depending on map position,">
+      <created>1671135998329</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1671135998329</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
